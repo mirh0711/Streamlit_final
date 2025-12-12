@@ -81,8 +81,8 @@ The app has four main tabs:
 - Interactive scatter plot coloured by plant.
 - Summary statistics for all numeric columns (mean, std, quartiles, etc.).
 
-![Tab 1 graph](dashboard_screenshots/tab1_graph.png)
-![Tab 1 summary stats](dashboard_screenshots/tab1_stats.png)
+![Tab 1 graph](dashboard_screenshots/tab_1_graph.png)
+![Tab 1 summary stats](dashboard_screenshots/tab_1_stats.png)
 ---
 
 ### 4.2 DC Power forecasting
@@ -121,7 +121,7 @@ This allows users to:
 - Compare accuracy of the two models on historical data.
 - See how point predictions change as the sliders are adjusted.
 
-![Tab 2 – DC power forecasting](dashboard_screenshots/tab2_overview.png)
+![Tab 2 – DC power forecasting](dashboard_screenshots/tab_2_overview.png)
 ---
 
 ### 4.3 Optimal Ratio Classification
@@ -142,7 +142,7 @@ This tab predicts whether a time step is operating **Optimally** or **Suboptimal
 - Logistic Regression
 - Support Vector Machine (SVM) wrapped in a pipeline with a `StandardScaler`.
 
-![Tab 3 graph](dashboard_screenshots/tab3_graph.png)
+![Tab 3 graph](dashboard_screenshots/tab_3_graph.png)
 
 **Features**
 
@@ -153,7 +153,7 @@ This tab predicts whether a time step is operating **Optimally** or **Suboptimal
   - Confusion matrix plot.
 
 The Scenario A/B labelling rules from the notebook are re-implemented in `utils.py` so the app uses consistent labels.
-![Tab 3 stats](dashboard_screenshots/tab3_stats.png)
+![Tab 3 stats](dashboard_screenshots/tab_3_stats.png)
 ---
 
 ### 4.4 Temporal forecasting (LSTM)
@@ -184,7 +184,7 @@ This tab uses pre-trained **LSTM models** to forecast power and yield over time.
     - DC Power – Plant 1 & Plant 2
     - Yield – Plant 1 & Plant 2
 
-![Tab 4 graph](dashboard_screenshots/tab4_graph.png)
-![Tab 4 stats](dashboard_screenshots/tab4_stats.png)
+![Tab 4 graph](dashboard_screenshots/tab_4_graph.png)
+![Tab 4 stats](dashboard_screenshots/tab_4_stats.png)
 
 
