@@ -1,5 +1,5 @@
 streamlit==1.52.1
-numpy
+numpy<2
 pandas
 altair
 matplotlib
