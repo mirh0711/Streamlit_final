@@ -4,6 +4,6 @@ pandas
 altair
 matplotlib
 joblib
-scikit-learn==1.7.2
+scikit-learn==1.6.1
 imbalanced-learn=0.14.0
 torch
