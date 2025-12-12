@@ -2,7 +2,8 @@ streamlit==1.52.1
 numpy
 pandas
 altair
+matplotlib
 joblib
 scikit-learn>=1.4
-matplotlib
+imbalanced-learn
 torch
